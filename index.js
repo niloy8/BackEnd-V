@@ -12,7 +12,7 @@ const fs = require("fs");
 
 const app = express();
 const port = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || "your-super-secret-key";
+const JWT_SECRET = process.env.JWT_SECRET || "cadc320223df220f49cd6f1f595f89ff783a79011f9ba439ba2bb8df796f943f6f1e0f6aece00243906b146c564755409045bd13ce5364d15c182e41d7a89839";
 
 app.use(cors());
 app.use(express.json());
